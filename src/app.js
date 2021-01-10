@@ -7,7 +7,6 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-
 const repositories = [];
 
 app.get("/repositories", (request, response) => {
